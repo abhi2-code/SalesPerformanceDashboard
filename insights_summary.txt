@@ -1,0 +1,15 @@
+Sales Performance Dashboard for a Stationery Shop
+
+This dashboard presents a detailed analysis of product-wise and date-wise sales for a stationery shop. It is designed to be interactive, with filters for both product and date to help users explore the data easily.
+
+Key Insights:
+1. Notebooks generated the highest total revenue among all products.
+2. Erasers had the highest number of units sold overall.
+3. Sales trends over time show consistent demand for most products, with some spikes on specific dates.
+4. Filters allow for focused analysis on particular products or days, aiding better inventory and pricing decisions.
+5. No customer-level data is used, ensuring data privacy and avoiding ethical concerns.
+
+Forecast:
+A simple revenue prediction model was added using Python (Linear Regression) to forecast total revenue for the next three days. This offers a basic yet valuable look into future performance, supporting proactive decision-making.
+
+Overall, the dashboard meets all the key objectives and provides a clear, interactive, and data-driven view of sales performance.
