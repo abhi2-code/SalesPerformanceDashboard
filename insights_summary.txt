@@ -1,21 +1,22 @@
-### 📌 **Insights Summary – Sales Performance Dashboard (Stationery Shop)**
+📌 Insights Summary – Sales Performance Dashboard (Stationery Shop)
+
 This interactive Tableau dashboard provides a detailed product-wise and date-wise analysis of sales for a stationery shop. The addition of a predictive model further enhances decision-making by offering short-term revenue forecasts.
 ---
-### 📊 **Key Business Insights**
+ 📊 Key Business Insights
 
-1. **Top Revenue Product:**
-   *Notebooks* generated the highest revenue overall, making them a key product to prioritize in promotions and stock planning.
+1. Top Revenue Product:
+   Notebooks generated the highest revenue overall, making them a key product to prioritize in promotions and stock planning.
 
-2. **Highest Volume Sales:**
-   *Erasers* were the most frequently purchased item in terms of quantity, suggesting their regular demand despite lower individual value.
+2. Highest Volume Sales:
+   Erasers were the most frequently purchased item in terms of quantity, suggesting their regular demand despite lower individual value.
 
-3. **Sales Trends:**
+3. Sales Trends:
    Consistent product sales were observed across most dates, with a few noticeable spikes. These could be tied to academic cycles or promotional activities.
 
-4. **Interactive Filtering:**
+4. Interactive Filtering:
    Product and date filters enable targeted exploration of data, helping managers quickly analyze specific sales patterns and make informed restocking or pricing decisions.
 ---
-### 🔮 **Forecasting Insights**
+🔮 Forecasting Insights
 
 A simple Linear Regression model was built using Python to forecast total revenue for the next 3 days. While basic, this model provides:
 
@@ -24,15 +25,15 @@ A simple Linear Regression model was built using Python to forecast total revenu
 
 ---
 
-### 🧠 **Ethical Considerations**
+🧠 Ethical Considerations
 
-* **Privacy:** No customer-level data (e.g., names, emails) was collected or analyzed.
-* **Bias Awareness:** The model and visualizations are free from personal demographic bias, focusing solely on products and sales volume.
-* **Transparency:** All assumptions in the forecasting model are kept simple and understandable, avoiding black-box decisions.
+*Privacy:* No customer-level data (e.g., names, emails) was collected or analyzed.
+*Bias Awareness:* The model and visualizations are free from personal demographic bias, focusing solely on products and sales volume.
+*Transparency:* All assumptions in the forecasting model are kept simple and understandable, avoiding black-box decisions.
 
 ---
 
-### ✅ **Conclusion**
+✅ Conclusion
 
 This dashboard successfully:
 
