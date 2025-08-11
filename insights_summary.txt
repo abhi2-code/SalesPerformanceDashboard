@@ -1,48 +1,50 @@
 📌 Insights Summary – Sales Performance Dashboard (Stationery Shop)
 
-This interactive Tableau dashboard provides a detailed product-wise and date-wise analysis of sales for a stationery shop. The addition of a predictive model further enhances decision-making by offering short-term revenue forecasts.
----
- 📊 Key Business Insights
+This Tableau-based dashboard delivers a clear, product-wise and date-wise view of sales for a stationery shop, supported by a basic predictive model to estimate short-term revenue trends. It enables managers to monitor performance, identify sales patterns, and plan inventory effectively.
 
-1. Top Revenue Product:
-   Notebooks generated the highest revenue overall, making them a key product to prioritize in promotions and stock planning.
+📊 Key Business Insights
 
-2. Highest Volume Sales:
-   Erasers were the most frequently purchased item in terms of quantity, suggesting their regular demand despite lower individual value.
+Top Revenue Product – Notebooks generated the highest revenue overall (₹600), making them a priority for promotions and stock allocation.
 
-3. Sales Trends:
-   Consistent product sales were observed across most dates, with a few noticeable spikes. These could be tied to academic cycles or promotional activities.
+Highest Volume Sales – Pencils recorded the highest quantity sold (90 units), highlighting strong and consistent demand despite a lower unit price.
 
-4. Interactive Filtering:
-   Product and date filters enable targeted exploration of data, helping managers quickly analyze specific sales patterns and make informed restocking or pricing decisions.
----
+Peak Sales Days –
+• By Revenue: 2025-07-01 with total revenue of ₹650.
+• By Units Sold: 2025-07-01 with 70 units sold.
+
+Sales Trends – Sales show a fluctuating pattern with notable peaks, likely linked to academic cycles or promotional campaigns.
+
+Interactive Analysis – Built-in product and date filters allow managers to drill down into specific periods and product categories, making targeted decisions easier.
+
 🔮 Forecasting Insights
 
-A simple Linear Regression model was built using Python to forecast total revenue for the next 3 days. While basic, this model provides:
+A simple Linear Regression model in Python was used to forecast total revenue for the next 3 days. While basic, this approach:
 
-* A forward-looking view of sales performance
-* Early signals for proactive decision-making (e.g., marketing, inventory management)
+Offers a forward-looking perspective on sales performance.
 
----
+Provides early signals for inventory planning and promotional strategies.
+
+Note: Given the limited dataset, forecast accuracy should be interpreted cautiously.
 
 🧠 Ethical Considerations
 
-*Privacy:* No customer-level data (e.g., names, emails) was collected or analyzed.
-*Bias Awareness:* The model and visualizations are free from personal demographic bias, focusing solely on products and sales volume.
-*Transparency:* All assumptions in the forecasting model are kept simple and understandable, avoiding black-box decisions.
+Privacy: No customer-identifiable information was collected or processed.
 
----
+Bias Awareness: Analysis is product-focused, free from demographic bias.
+
+Transparency: The forecasting model uses simple, explainable logic without hidden algorithms.
 
 ✅ Conclusion
 
-This dashboard successfully:
+This dashboard:
 
-* Offers easy-to-understand visuals for business users
-* Enables actionable insights through interactivity
-* Integrates basic machine learning to aid planning
-* Maintains ethical standards in data use
+Presents sales data through easy-to-read visuals.
 
-It is a valuable tool for monitoring, analyzing, and forecasting stationery shop performance.
+Enables actionable insights with interactivity.
 
----
+Incorporates basic forecasting for proactive planning.
+
+Maintains transparency and ethical data handling.
+
+It serves as a practical tool for tracking, analyzing, and forecasting stationery shop sales performance.
 
