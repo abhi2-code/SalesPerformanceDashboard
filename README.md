@@ -58,7 +58,7 @@ Built as part of the **GUVI-HCL Data Analytics Program**, this dashboard equips 
 ## 🧠 Insights & Interpretation
 
 - **Notebooks** generated the highest total revenue, showing they are high-value items.
-- **Erasers** had the highest number of units sold, indicating low-price, high-volume behavior.
+- **Pencil** had the highest number of units sold, indicating low-price, high-volume behavior.
 - The forecasted revenue for the next 3 days shows a decline, signaling potential inventory or demand challenges.
 
 ---
